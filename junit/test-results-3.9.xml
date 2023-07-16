@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="7" time="0.068" timestamp="2023-07-16T06:16:03.287719" hostname="Mohsens-MacBook-Air.local"><testcase classname="problems.P001.p001_test" name="test_even" time="0.023"><failure message="AssertionError: assert '50 is odd' == '50 is even'&#10;  - 50 is even&#10;  + 50 is odd">def test_even():
+&gt;       assert solution(50) == '50 is even'
+E       AssertionError: assert '50 is odd' == '50 is even'
+E         - 50 is even
+E         + 50 is odd
+
+../problem-solving/problems/P001/p001_test.py:4: AssertionError</failure></testcase><testcase classname="problems.P001.p001_test" name="test_odd" time="0.000" /><testcase classname="problems.P001.p001_test" name="test_zero" time="0.000" /><testcase classname="problems.P001.p001_test" name="test_large_number" time="0.000"><failure message="AssertionError: assert '10003203 is even' == '10003203 is odd'&#10;  - 10003203 is odd&#10;  ?             ^^^&#10;  + 10003203 is even&#10;  ?             ^^^^">def test_large_number():
+&gt;       assert solution(10003203) == '10003203 is odd'
+E       AssertionError: assert '10003203 is even' == '10003203 is odd'
+E         - 10003203 is odd
+E         ?             ^^^
+E         + 10003203 is even
+E         ?             ^^^^
+
+../problem-solving/problems/P001/p001_test.py:13: AssertionError</failure></testcase><testcase classname="problems.P001.p001_test" name="test_1000" time="0.000"><failure message="AssertionError: assert '1000 is odd' == '1000 is even'&#10;  - 1000 is even&#10;  + 1000 is odd">def test_1000():
+&gt;       assert solution(1000) == '1000 is even'
+E       AssertionError: assert '1000 is odd' == '1000 is even'
+E         - 1000 is even
+E         + 1000 is odd
+
+../problem-solving/problems/P001/p001_test.py:17: AssertionError</failure></testcase><testcase classname="problems.P002.P002_test" name="test_100_and_200" time="0.000" /><testcase classname="problems.P002.P002_test" name="test_minus_1000_and_300" time="0.000" /></testsuite></testsuites>

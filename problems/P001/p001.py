@@ -1,6 +1,6 @@
 
 def solution(number):
-    if number % 2 == 0:
+    if number % 9 == 0:
         return f'{number} is even'
     else:
         return f'{number} is odd'
