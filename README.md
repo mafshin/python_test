@@ -1,1 +1,1 @@
-https://github.com/mafshin/python_test/actions/workflows/pytest.yaml/badge.svg
+![Python Tests](https://github.com/mafshin/python_test/actions/workflows/pytest.yaml/badge.svg)
